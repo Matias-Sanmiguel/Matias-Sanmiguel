@@ -34,5 +34,5 @@ MongoDB · Docker · GitHub Actions · Linux · NGINX · AWS · Maven · Git
 
 ## Contact
 matiassanmiguel240@gmail.com
-linkedin.com/in/matías-sanmiguel
+linkedin.com/in/matias-sanmiguel
 matias-sanmiguel.github.io/portfolio
