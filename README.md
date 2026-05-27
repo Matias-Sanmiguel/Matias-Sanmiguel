@@ -1,91 +1,38 @@
-# Hi, I'm Matías Sanmiguel 👋
+# Matías Sanmiguel
 
-**Computer Engineering student (UADE)** · **Backend & Infrastructure-Oriented Developer** · **Systems Builder**
+Backend & infrastructure engineer based in Buenos Aires.
+Java · Spring Boot · PostgreSQL · Docker · Linux
 
-I enjoy building real-world software systems end-to-end: from architecture and database design to deployment and production operations.
+I build production systems end-to-end — from schema design 
+and API architecture to containerized deployment and CI/CD.
 
----
+## Selected projects
 
-## 🚀 About Me
+**Sashimi** — Crypto payment gateway (Java 21 · Spring Boot 3.3 · 
+PostgreSQL · Redis · Docker · GitHub Actions)
+Multi-module Maven architecture. Stablecoin payments on TRON/Solana 
+with FX settlement. HD wallet derivation, idempotency, webhook 
+delivery, AWS Secrets Manager. 80+ tests across unit, integration, 
+and E2E layers.
 
-- 🇦🇷 Based in Argentina
-- 🧠 Strong systems-thinking mindset
-- 🐧 Linux-focused workflow
-- 🏗️ Building software for real operational/business use cases
-- 🎯 Long-term path: **CTO / Architect / Founder**
+**Caché** — Polyglot social network (Java 21 · Spring Boot · Neo4j · 
+Redis · MongoDB · Cassandra · Docker)
+Four-database architecture: Neo4j for social graph, Redis for 
+presence, MongoDB for catalog, Cassandra for time-series check-ins.
 
----
+**Honeycomb** — Blockchain forensics (Java · Spring Boot · Neo4j)
+Graph analysis system for transaction tracing. BFS, DFS, Dijkstra, 
+Prim implemented from scratch. Detects peel chains and mixer hubs.
 
-## 🛠️ Tech Stack
+**Pressure** — Video compressor (Rust)
+Cross-platform desktop app. Auto-detects NVENC/VideoToolbox/x264. 
+Queue-based with live telemetry. 12 MB binary.
 
-**Preferred Languages**
-`Python` · `Java` · `SQL`  · `Bash`
+## Stack
+Java 21 · Spring Boot 3 · Python · PostgreSQL · Redis · Neo4j · 
+MongoDB · Docker · GitHub Actions · Linux · NGINX · AWS · Maven · Git
 
-**Backend**
-Core: backend logic, REST APIs, automation scripts, operational tools
-Learning stage: `Django` · `Spring Boot`
-
-**Databases**
-`MySQL` · `MariaDB` · `PostgreSQL` · Relational modeling
-
-**Infra / DevOps**
-`Linux` · `Docker` · `Docker Compose` · `Nginx` · VPS deployments
-
-**Current Interests**
-Business systems · Distributed systems · Web3 infrastructure
-
----
-
-## 📌 Selected Work
-
-### TechERP (Production)
-A modular business management platform built for real company operations.
-
-Main areas:
-- Inventory and stock movement tracking
-- Sales and purchase workflows
-- Financial movement records
-- Reporting and internal dashboards
-
-My role:
-- System architecture
-- Backend development
-- Infrastructure and deployment
-
-### Kinesiology Management System (In Progress)
-Operational software for a kinesiology center, focused on practical workflows, traceability, and reliability.
-
-### Academic / Experimental Work
-- Java-based blockchain project (university context)
-- Distributed messaging network concepts (graph routing and shortest-path logic)
-
----
-
-## 🧩 Engineering Approach
-
-I prefer practical and maintainable systems over flashy prototypes.
-
-Core principles:
-- Clear data modeling first
-- Traceable operations (movement/event-based records)
-- Scalable architecture with pragmatic trade-offs
-- Reliability in production
-
----
-
-## 📈 Current Focus
-
-- Strengthening programming depth
-- Improving delivery speed and consistency
-- Shipping solid systems in business software + Web3
-
----
-
-## 🤝 Connect
-
-- LinkedIn: [matías-sanmiguel](https://www.linkedin.com/in/mat%C3%ADas-sanmiguel/)
-- GitHub: [Matias-Sanmiguel](https://github.com/Matias-Sanmiguel)
-
----
-
-_Real systems. Real operations. Real impact._
+## Contact
+matiassanmiguel240@gmail.com
+linkedin.com/in/matías-sanmiguel
+matias-sanmiguel.github.io/portfolio
