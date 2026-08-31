@@ -1,38 +1,34 @@
-# Matías Sanmiguel
+### Matías Sanmiguel
 
-Backend & infrastructure engineer based in Buenos Aires.
-Java · Spring Boot · PostgreSQL · Docker · Linux
+Systems engineer in Buenos Aires. JVM backends, polyglot data stores, Linux infrastructure. I start from the schema and ship systems that hold their state under production conditions.
 
-I build production systems end-to-end — from schema design 
-and API architecture to containerized deployment and CI/CD.
+The largest public project is **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)**: shoppers pay in pesos, merchants settle in USDT.
 
-## Selected projects
+<p align="center">
+  <a href="https://matias-sanmiguel.github.io/portfolio/"><img src="https://img.shields.io/badge/-Portfolio-8F3A32?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:matiassanmiguel240@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-**Sashimi** — Crypto payment gateway (Java 21 · Spring Boot 3.3 · 
-PostgreSQL · Redis · Docker · GitHub Actions)
-Multi-module Maven architecture. Stablecoin payments on TRON/Solana 
-with FX settlement. HD wallet derivation, idempotency, webhook 
-delivery, AWS Secrets Manager. 80+ tests across unit, integration, 
-and E2E layers.
+- **Now:** backend, infrastructure, and systems architecture — remote or Buenos Aires
+- **Day to day:** Java 21 · Spring Boot · PostgreSQL · Docker · Linux
+- **Also:** Neo4j · Redis · MongoDB · Cassandra · Python · Rust
 
-**Caché** — Polyglot social network (Java 21 · Spring Boot · Neo4j · 
-Redis · MongoDB · Cassandra · Docker)
-Four-database architecture: Neo4j for social graph, Redis for 
-presence, MongoDB for catalog, Cassandra for time-series check-ins.
+---
 
-**Honeycomb** — Blockchain forensics (Java · Spring Boot · Neo4j)
-Graph analysis system for transaction tracing. BFS, DFS, Dijkstra, 
-Prim implemented from scratch. Detects peel chains and mixer hubs.
+### Selected work
 
-**Pressure** — Video compressor (Rust)
-Cross-platform desktop app. Auto-detects NVENC/VideoToolbox/x264. 
-Queue-based with live telemetry. 12 MB binary.
+**[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)** — Payment gateway for LATAM. Dual rail: cash-in (ARS/BRL via CVU or PIX) and crypto (USDT/USDC on TRON or Solana). HD wallets per order, HMAC webhooks, one Docker Compose. [Docs](https://matias-sanmiguel.github.io/Sashimi/)
 
-## Stack
-Java 21 · Spring Boot 3 · Python · PostgreSQL · Redis · Neo4j · 
-MongoDB · Docker · GitHub Actions · Linux · NGINX · AWS · Maven · Git
+**[Caché](https://github.com/Matias-Sanmiguel/Cache)** — Nightlife social platform on four databases. Neo4j for the graph, Redis for presence, MongoDB for the catalog, Cassandra for check-ins.
 
-## Contact
-matiassanmiguel240@gmail.com
-linkedin.com/in/matias-sanmiguel
-matias-sanmiguel.github.io/portfolio
+**[Pressure](https://github.com/Matias-Sanmiguel/Pressure)** — Cross-platform Rust video compressor. Picks NVENC, VideoToolbox, or libx264. Queue-based with live telemetry. 12 MB binary.
+
+<details>
+<summary>More</summary>
+
+**[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics. BFS, DFS, Dijkstra, and Prim by hand in Java. Peel chains, mixer hubs, Neo4j.
+
+**[CauchoChain](https://github.com/Matias-Sanmiguel/CauchoChain)** — Educational TUI blockchain in Java. Cryptographic chaining, append-only ledger, CAP trade-offs in a terminal.
+
+</details>
