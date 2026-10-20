@@ -10,20 +10,7 @@
   <sub>Imas+ is the official computer science student club at UADE.</sub>
 </p>
 
-<p align="center">
-  <a href="https://matias-sanmiguel.github.io/portfolio/">Portfolio ↗</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="assets/linkedin.svg" width="18" height="18" alt="" /> LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:matiassanmiguel240@gmail.com">Email ↗</a>
-</p>
-
-<p align="center">
-  <img src="assets/tux.gif" width="140" height="140" alt="Tux, the Linux penguin, spinning in 3D" /><br />
-  <samp>at home on Linux.</samp>
-</p>
-
----
-
-### `01` / whoami
+<h2 align="center">About me</h2>
 
 ```go
 package matias
@@ -49,27 +36,32 @@ var Me = Profile{
 
 I like working where software meets operations: designing data models, connecting services, and building tools that make systems easier to understand and run. My projects range from payment infrastructure to network diagnostics and desktop utilities.
 
-### `02` / toolbox
+<h2 align="center">You can reach me at 👽</h2>
 
-<p>
-  <img src="assets/java.svg" width="40" height="40" alt="Java" title="Java" /> &nbsp;
-  <img src="assets/spring.svg" width="40" height="40" alt="Spring Boot" title="Spring Boot" /> &nbsp;
-  <img src="assets/go.svg" width="40" height="40" alt="Go" title="Go" /> &nbsp;
-  <img src="assets/python.svg" width="40" height="40" alt="Python" title="Python" /> &nbsp;
-  <img src="assets/rust.svg" width="40" height="40" alt="Rust" title="Rust" /> &nbsp;
-  <img src="assets/postgresql.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;
-  <img src="assets/docker.svg" width="40" height="40" alt="Docker" title="Docker" /> &nbsp;
-  <img src="assets/linux.svg" width="40" height="40" alt="Linux" title="Linux" /> &nbsp;
+<p align="center">
+  <a href="https://matias-sanmiguel.github.io/portfolio/" title="Portfolio"><img src="assets/github-contact.svg" alt="Portfolio" width="30" height="30" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/matias-sanmiguel/" title="LinkedIn"><img src="assets/linkedin-contact.svg" alt="LinkedIn" width="30" height="30" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:matiassanmiguel240@gmail.com" title="Email"><img src="assets/gmail-contact.svg" alt="Email" width="30" height="30" /></a>
 </p>
 
-| Layer | Tools |
-| :--- | :--- |
-| **Backend** | Java · Spring Boot · Go · Python |
-| **Data** | PostgreSQL · Neo4j · Redis · MongoDB · Cassandra |
-| **Infrastructure** | Linux · Docker |
-| **Desktop** | Rust · FFmpeg |
+<h2 align="center">My stack 👨‍💻</h2>
 
-### `03` / selected work
+<p align="center">
+  <strong>Backend</strong><br />
+  <code>Java</code> <code>Spring Boot</code> <code>Go</code> <code>Python</code>
+</p>
+<p align="center">
+  <strong>Data</strong><br />
+  <code>PostgreSQL</code> <code>Neo4j</code> <code>Redis</code> <code>MongoDB</code> <code>Cassandra</code>
+</p>
+<p align="center">
+  <strong>Systems & tools</strong><br />
+  <code>Linux</code> <code>Docker</code> <code>Rust</code> <code>FFmpeg</code>
+</p>
+
+<h2 align="center">Selected projects 🚀</h2>
 
 | Project | Why I built it / what to explore |
 | :--- | :--- |
@@ -90,7 +82,7 @@ I like working where software meets operations: designing data models, connectin
 
 </details>
 
-### `04` / currently
+<h2 align="center">Currently 🌱</h2>
 
 **At Personal** — working on monitoring, diagnostics, and automation in telecommunications.
 
@@ -99,8 +91,8 @@ I like working where software meets operations: designing data models, connectin
 ---
 
 <p align="center">
-  <samp>Let's talk systems, tools, and ideas.</samp><br />
-  <a href="mailto:matiassanmiguel240@gmail.com">Get in touch ↗</a>
+  <img src="assets/tux.gif" width="160" height="160" alt="Tux, the Linux penguin, spinning in 3D" /><br />
+  <samp>at home on Linux.</samp>
 </p>
 
-<p align="center"><sub><a href="assets/CREDITS.md">Artwork & icon credits</a></sub></p>
+<p align="center"><sub>Layout inspired by <a href="https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/AnhellO.md">AnhellO · Awesome Profile READMEs</a> · <a href="assets/CREDITS.md">Artwork & icon credits</a></sub></p>
