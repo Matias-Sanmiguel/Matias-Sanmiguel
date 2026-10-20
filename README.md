@@ -95,4 +95,3 @@ I like working where software meets operations: designing data models, connectin
   <samp>at home on Linux.</samp>
 </p>
 
-<p align="center"><sub>Layout inspired by <a href="https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/AnhellO.md">AnhellO · Awesome Profile READMEs</a> · <a href="assets/CREDITS.md">Artwork & icon credits</a></sub></p>
