@@ -11,9 +11,14 @@
 </p>
 
 <p align="center">
-  <a href="https://matias-sanmiguel.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=58A6FF" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logoColor=58A6FF" alt="LinkedIn" /></a>
-  <a href="mailto:matiassanmiguel240@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" /></a>
+  <a href="https://matias-sanmiguel.github.io/portfolio/">Portfolio ↗</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="assets/linkedin.svg" width="18" height="18" alt="" /> LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:matiassanmiguel240@gmail.com">Email ↗</a>
+</p>
+
+<p align="center">
+  <img src="assets/tux.gif" width="140" height="140" alt="Tux, the Linux penguin, spinning in 3D" /><br />
+  <samp>at home on Linux.</samp>
 </p>
 
 ---
@@ -47,11 +52,14 @@ I like working where software meets operations: designing data models, connectin
 ### `02` / toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=58A6FF" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-161B22?style=flat-square&logo=springboot&logoColor=58A6FF" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Go-161B22?style=flat-square&logo=go&logoColor=58A6FF" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
-  <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=58A6FF" alt="Rust" />
+  <img src="assets/java.svg" width="40" height="40" alt="Java" title="Java" /> &nbsp;
+  <img src="assets/spring.svg" width="40" height="40" alt="Spring Boot" title="Spring Boot" /> &nbsp;
+  <img src="assets/go.svg" width="40" height="40" alt="Go" title="Go" /> &nbsp;
+  <img src="assets/python.svg" width="40" height="40" alt="Python" title="Python" /> &nbsp;
+  <img src="assets/rust.svg" width="40" height="40" alt="Rust" title="Rust" /> &nbsp;
+  <img src="assets/postgresql.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL" /> &nbsp;
+  <img src="assets/docker.svg" width="40" height="40" alt="Docker" title="Docker" /> &nbsp;
+  <img src="assets/linux.svg" width="40" height="40" alt="Linux" title="Linux" /> &nbsp;
 </p>
 
 | Layer | Tools |
@@ -63,19 +71,22 @@ I like working where software meets operations: designing data models, connectin
 
 ### `03` / selected work
 
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)** | Payment gateway for LATAM. Fiat and crypto payment rails, merchant settlement, and signed webhooks. [Documentation ↗](https://matias-sanmiguel.github.io/sashimi-public/) | Java · Spring Boot · PostgreSQL |
-| **[Caché](https://github.com/Matias-Sanmiguel/Cache)** | Nightlife social platform. Separate data stores for the social graph, presence, catalog, and check-ins. | Spring Boot · Neo4j · Redis · MongoDB · Cassandra |
-| **[Pressure](https://github.com/Matias-Sanmiguel/Pressure)** | Desktop video compressor with hardware encoder detection, queued jobs, and live telemetry. | Rust · FFmpeg |
+| Project | Why I built it / what to explore |
+| :--- | :--- |
+| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)**<br />Java · Spring Boot · PostgreSQL | **Payment infrastructure for LATAM.** Fiat and crypto rails, settlement workflows, and signed webhooks. [Read the docs ↗](https://matias-sanmiguel.github.io/sashimi-public/) |
+| **[Salmon](https://github.com/Matias-Sanmiguel/Salmon)**<br />Rust · Language design | **A small language for finite automata.** Lexer, parser, semantic validation, and DFA/NFA/ε-NFA simulation, with a CLI and tests against an independent evaluator. |
+| **[Tintero](https://github.com/Matias-Sanmiguel/tintero)**<br />Next.js · TypeScript · Supabase | **A workspace for Imas+.** Projects, member management, inventory, a calendar, and LaTeX budgets for the UADE computer science club. |
+| **[Pressure](https://github.com/Matias-Sanmiguel/Pressure)**<br />Rust · FFmpeg | **A practical desktop tool.** Video compression with hardware encoder detection, queued jobs, and live telemetry. |
 
 <details>
-<summary><strong>Explore more → algorithms & distributed systems</strong></summary>
+<summary><strong>More to explore → data systems, experiments & Linux tools</strong></summary>
 
 <br />
 
-- **[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics with graph algorithms implemented in Java: BFS, DFS, Dijkstra, and Prim.
-- **[CauchoChain](https://github.com/Matias-Sanmiguel/CauchoChain)** — Educational blockchain in a terminal. Cryptographic chaining, an append-only ledger, and CAP trade-offs.
+- **[Caché](https://github.com/Matias-Sanmiguel/Cache)** — Nightlife social platform using Neo4j, Redis, MongoDB, and Cassandra for different data workloads.
+- **[Fly Crossy Connectome](https://github.com/Matias-Sanmiguel/fly-crossy-connectome)** — Experimental 3D game with an autonomous 80-neuron controller and live simulated neural activity. Larger controllers and parts of the biomechanics telemetry are still in progress.
+- **[DosStatsPort](https://github.com/Matias-Sanmiguel/DosStatsPort)** — Linux launcher and packaging for a legacy DOS statistics suite, using DOSBox Staging and a user-supplied copy of the original software.
+- **[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics with graph algorithms implemented in Java.
 
 </details>
 
@@ -91,3 +102,5 @@ I like working where software meets operations: designing data models, connectin
   <samp>Let's talk systems, tools, and ideas.</samp><br />
   <a href="mailto:matiassanmiguel240@gmail.com">Get in touch ↗</a>
 </p>
+
+<p align="center"><sub><a href="assets/CREDITS.md">Artwork & icon credits</a></sub></p>

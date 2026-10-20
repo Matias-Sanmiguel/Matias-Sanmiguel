@@ -1,0 +1,4 @@
+# Asset credits
+
+- `tux.gif`: [Rotating Tux](https://commons.wikimedia.org/wiki/File:Rotating_Tux.gif) by Cooluser129, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Unmodified.
+- Technology and LinkedIn icons: [Devicon](https://github.com/devicons/devicon), MIT; see DEVICON-LICENSE.txt. Rust icon colored for contrast. Trademarks belong to their respective owners.
