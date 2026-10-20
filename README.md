@@ -1,42 +1,93 @@
-### Matías Sanmiguel
-
-Software developer based in Buenos Aires, focused on backend systems, data, and infrastructure. I build tools that connect software with real operational problems — from payment processing to network monitoring and automation.
-
-Currently an **intern at Personal** and **founder of Imas+**, the official computer science student club at **UADE**.
+<h1 align="center">Matías Sanmiguel</h1>
 
 <p align="center">
-  <a href="https://matias-sanmiguel.github.io/portfolio/"><img src="https://img.shields.io/badge/-Portfolio-8F3A32?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:matiassanmiguel240@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <samp>BACKEND SYSTEMS / INFRASTRUCTURE / TELECOMMUNICATIONS</samp>
 </p>
 
-### What I do
+<p align="center">
+  Building software in Buenos Aires.<br />
+  <strong>Intern at Personal</strong> · <strong>Founder of Imas+</strong><br />
+  <sub>Imas+ is the official computer science student club at UADE.</sub>
+</p>
 
-- **Personal:** an internship focused on telecommunications, with work on monitoring, diagnostics, and automation tools.
-- **Imas+:** building the official computer science student community at UADE as its founder.
-- **Projects:** backend services, event-driven systems, data modeling, and developer tools.
-
-### Technologies
-
-- **Backend:** Java · Spring Boot · Go · Python
-- **Data:** PostgreSQL · Neo4j · Redis · MongoDB · Cassandra
-- **Infrastructure & tools:** Linux · Docker · Rust
+<p align="center">
+  <a href="https://matias-sanmiguel.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=githubpages&logoColor=58A6FF" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/matias-sanmiguel/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logoColor=58A6FF" alt="LinkedIn" /></a>
+  <a href="mailto:matiassanmiguel240@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" /></a>
+</p>
 
 ---
 
-### Selected work
+### `01` / whoami
 
-**[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)** — Payment gateway for LATAM. Dual rail: cash-in (ARS/BRL via CVU or PIX) and crypto (USDT/USDC on TRON or Solana). HD wallets per order, HMAC webhooks, one Docker Compose. [Docs](https://matias-sanmiguel.github.io/sashimi-public/)
+```go
+package matias
 
-**[Caché](https://github.com/Matias-Sanmiguel/Cache)** — Nightlife social platform on four databases. Neo4j for the graph, Redis for presence, MongoDB for the catalog, Cassandra for check-ins.
+type Profile struct {
+    BasedIn string
+    Work    string
+    Founded string
+    Focus   []string
+}
 
-**[Pressure](https://github.com/Matias-Sanmiguel/Pressure)** — Cross-platform Rust video compressor. Picks NVENC, VideoToolbox, or libx264. Queue-based with live telemetry. 12 MB binary.
+var Me = Profile{
+    BasedIn: "Buenos Aires, Argentina",
+    Work:    "Personal — Intern",
+    Founded: "Imas+ — UADE's official computer science student club",
+    Focus: []string{
+        "Backend services & data modeling",
+        "Network monitoring & diagnostics",
+        "Infrastructure & automation",
+    },
+}
+```
+
+I like working where software meets operations: designing data models, connecting services, and building tools that make systems easier to understand and run. My projects range from payment infrastructure to network diagnostics and desktop utilities.
+
+### `02` / toolbox
+
+<p>
+  <img src="https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=58A6FF" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-161B22?style=flat-square&logo=springboot&logoColor=58A6FF" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Go-161B22?style=flat-square&logo=go&logoColor=58A6FF" alt="Go" />
+  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&logo=rust&logoColor=58A6FF" alt="Rust" />
+</p>
+
+| Layer | Tools |
+| :--- | :--- |
+| **Backend** | Java · Spring Boot · Go · Python |
+| **Data** | PostgreSQL · Neo4j · Redis · MongoDB · Cassandra |
+| **Infrastructure** | Linux · Docker |
+| **Desktop** | Rust · FFmpeg |
+
+### `03` / selected work
+
+| Project | What it does | Built with |
+| :--- | :--- | :--- |
+| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)** | Payment gateway for LATAM. Fiat and crypto payment rails, merchant settlement, and signed webhooks. [Documentation ↗](https://matias-sanmiguel.github.io/sashimi-public/) | Java · Spring Boot · PostgreSQL |
+| **[Caché](https://github.com/Matias-Sanmiguel/Cache)** | Nightlife social platform. Separate data stores for the social graph, presence, catalog, and check-ins. | Spring Boot · Neo4j · Redis · MongoDB · Cassandra |
+| **[Pressure](https://github.com/Matias-Sanmiguel/Pressure)** | Desktop video compressor with hardware encoder detection, queued jobs, and live telemetry. | Rust · FFmpeg |
 
 <details>
-<summary>More</summary>
+<summary><strong>Explore more → algorithms & distributed systems</strong></summary>
 
-**[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics. BFS, DFS, Dijkstra, and Prim by hand in Java. Peel chains, mixer hubs, Neo4j.
+<br />
 
-**[CauchoChain](https://github.com/Matias-Sanmiguel/CauchoChain)** — Educational TUI blockchain in Java. Cryptographic chaining, append-only ledger, CAP trade-offs in a terminal.
+- **[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics with graph algorithms implemented in Java: BFS, DFS, Dijkstra, and Prim.
+- **[CauchoChain](https://github.com/Matias-Sanmiguel/CauchoChain)** — Educational blockchain in a terminal. Cryptographic chaining, an append-only ledger, and CAP trade-offs.
 
 </details>
+
+### `04` / currently
+
+**At Personal** — working on monitoring, diagnostics, and automation in telecommunications.
+
+**At Imas+** — building the official computer science student community at UADE as its founder.
+
+---
+
+<p align="center">
+  <samp>Let's talk systems, tools, and ideas.</samp><br />
+  <a href="mailto:matiassanmiguel240@gmail.com">Get in touch ↗</a>
+</p>
