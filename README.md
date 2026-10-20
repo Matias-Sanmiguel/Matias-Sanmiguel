@@ -65,9 +65,8 @@ I like working where software meets operations: designing data models, connectin
 
 | Project | Why I built it / what to explore |
 | :--- | :--- |
-| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)**<br />Java · Spring Boot · PostgreSQL | **Payment infrastructure for LATAM.** Fiat and crypto rails, settlement workflows, and signed webhooks. [Read the docs ↗](https://matias-sanmiguel.github.io/sashimi-public/) |
+| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)**<br />Java · Spring Boot · PostgreSQL | **Payment infrastructure for LATAM.** Fiat and crypto rails, settlement workflows, signed webhooks, and integration tests for the payment lifecycle. [Read the docs ↗](https://matias-sanmiguel.github.io/sashimi-public/) |
 | **[Salmon](https://github.com/Matias-Sanmiguel/Salmon)**<br />Rust · Language design | **A small language for finite automata.** Lexer, parser, semantic validation, and DFA/NFA/ε-NFA simulation, with a CLI and tests against an independent evaluator. |
-| **[Tintero](https://github.com/Matias-Sanmiguel/tintero)**<br />Next.js · TypeScript · Supabase | **A workspace for Imas+.** Projects, member management, inventory, a calendar, and LaTeX budgets for the UADE computer science club. |
 | **[Pressure](https://github.com/Matias-Sanmiguel/Pressure)**<br />Rust · FFmpeg | **A practical desktop tool.** Video compression with hardware encoder detection, queued jobs, and live telemetry. |
 
 <details>
