@@ -1,4 +1,4 @@
-![Matías Sanmiguel — ASCII banner](assets/banner.svg)
+![Matías Sanmiguel — ASCII banner](assets/name-banner.svg)
 
 I'm **Matías Sanmiguel**, a software developer based in Buenos Aires. I'm currently an **intern at Personal** and the **founder of Imas+**, the official computer science student club at **UADE**.
 
