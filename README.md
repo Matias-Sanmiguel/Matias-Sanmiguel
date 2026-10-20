@@ -1,60 +1,91 @@
 ![Matías Sanmiguel — ASCII banner](assets/name-banner.svg)
 
-I'm **Matías Sanmiguel**, a software developer based in Buenos Aires. I'm currently an **intern at Personal** and the **founder of Imas+**, the official computer science student club at **UADE**.
+<p align="center">
+  Building software in Buenos Aires.<br />
+  <strong>Intern at Personal</strong> · <strong>Founder of Imas+</strong><br />
+  <sub>Imas+ is the official computer science student club at UADE.</sub>
+</p>
 
-My work focuses on backend systems, data modeling, and infrastructure. I like building tools that connect software with operational problems, from payment processing to network monitoring and diagnostics.
+<h2 align="center">About me</h2>
 
-## About Me
+```go
+package matias
 
-- At **Personal**, I work on monitoring, diagnostics, and automation in telecommunications.
-- I founded **Imas+** to build a computer science student community at UADE.
-- My projects explore JVM backends, language design in Rust, and practical tools for Linux.
-- I care about how systems store state, handle failures, and make their behavior observable.
+type Profile struct {
+    BasedIn string
+    Work    string
+    Founded string
+    Focus   []string
+}
 
-## Selected Projects
+var Me = Profile{
+    BasedIn: "Buenos Aires, Argentina",
+    Work:    "Personal — Intern",
+    Founded: "Imas+ — UADE's official computer science student club",
+    Focus: []string{
+        "Backend services & data modeling",
+        "Network monitoring & diagnostics",
+        "Infrastructure & automation",
+    },
+}
+```
 
-### [Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)
+I like working where software meets operations: designing data models, connecting services, and building tools that make systems easier to understand and run. My projects range from payment infrastructure to network diagnostics and desktop utilities.
 
-A payment gateway for Latin America, built with **Java, Spring Boot, and PostgreSQL**. It brings together fiat and crypto payment rails, merchant settlement workflows, and signed webhooks. The repository includes integration tests for the payment lifecycle, authentication, and settlement.
+<h2 align="center">You can reach me at 👽</h2>
 
-[Documentation](https://matias-sanmiguel.github.io/sashimi-public/)
+<p align="center">
+  <a href="https://matias-sanmiguel.github.io/portfolio/" title="Portfolio"><img src="assets/github-contact.svg" alt="Portfolio" width="30" height="30" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/matias-sanmiguel/" title="LinkedIn"><img src="assets/linkedin-contact.svg" alt="LinkedIn" width="30" height="30" /></a>
+  &nbsp;&nbsp;
+  <a href="mailto:matiassanmiguel240@gmail.com" title="Email"><img src="assets/gmail-contact.svg" alt="Email" width="30" height="30" /></a>
+</p>
 
-### [Salmon](https://github.com/Matias-Sanmiguel/Salmon)
+<h2 align="center">My stack 👨‍💻</h2>
 
-A compact language and CLI for defining, validating, and simulating **finite automata**, written in **Rust**. It includes a lexer, parser, semantic validation, and DFA/NFA/ε-NFA simulation. Tests compare the simulator with an independent evaluator; CI runs checks on Linux and Windows.
+<p align="center">
+  <strong>Backend</strong><br />
+  <code>Java</code> <code>Spring Boot</code> <code>Go</code> <code>Python</code>
+</p>
+<p align="center">
+  <strong>Data</strong><br />
+  <code>PostgreSQL</code> <code>Neo4j</code> <code>Redis</code> <code>MongoDB</code> <code>Cassandra</code>
+</p>
+<p align="center">
+  <strong>Systems & tools</strong><br />
+  <code>Linux</code> <code>Docker</code> <code>Rust</code> <code>FFmpeg</code>
+</p>
 
-### [Pressure](https://github.com/Matias-Sanmiguel/Pressure)
+<h2 align="center">Selected projects 🚀</h2>
 
-A desktop video compressor built with **Rust and FFmpeg**. It detects available hardware encoders, falls back to CPU encoding, and processes a queue of videos with live progress and telemetry.
+| Project | Why I built it / what to explore |
+| :--- | :--- |
+| **[Sashimi](https://github.com/Matias-Sanmiguel/sashimi-public)**<br />Java · Spring Boot · PostgreSQL | **Payment infrastructure for LATAM.** Fiat and crypto rails, settlement workflows, signed webhooks, and integration tests for the payment lifecycle. [Read the docs ↗](https://matias-sanmiguel.github.io/sashimi-public/) |
+| **[Salmon](https://github.com/Matias-Sanmiguel/Salmon)**<br />Rust · Language design | **A small language for finite automata.** Lexer, parser, semantic validation, and DFA/NFA/ε-NFA simulation, with a CLI and tests against an independent evaluator. |
+| **[Pressure](https://github.com/Matias-Sanmiguel/Pressure)**<br />Rust · FFmpeg | **A practical desktop tool.** Video compression with hardware encoder detection, queued jobs, and live telemetry. |
 
 <details>
-<summary>Other projects and experiments</summary>
+<summary><strong>More to explore → data systems, experiments & Linux tools</strong></summary>
 
+<br />
+
+- **[Caché](https://github.com/Matias-Sanmiguel/Cache)** — Nightlife social platform using Neo4j, Redis, MongoDB, and Cassandra for different data workloads.
+- **[Fly Crossy Connectome](https://github.com/Matias-Sanmiguel/fly-crossy-connectome)** — Experimental 3D game with an autonomous 80-neuron controller and live simulated neural activity. Larger controllers and parts of the biomechanics telemetry are still in progress.
 - **[DosStatsPort](https://github.com/Matias-Sanmiguel/DosStatsPort)** — Linux launcher and packaging for a legacy DOS statistics suite, using DOSBox Staging and a user-supplied copy of the original software.
-- **[Caché](https://github.com/Matias-Sanmiguel/Cache)** — A nightlife social platform with Neo4j, Redis, MongoDB, and Cassandra serving different data workloads.
-- **[Fly Crossy Connectome](https://github.com/Matias-Sanmiguel/fly-crossy-connectome)** — Experimental 3D game with an autonomous 80-neuron controller and live simulated neural activity. Larger controllers and parts of the biomechanics telemetry remain in progress.
 - **[Honeycomb](https://github.com/Matias-Sanmiguel/Honeycombv2)** — Blockchain forensics with graph algorithms implemented in Java.
 
 </details>
 
-## Tech Stack
+<h2 align="center">Currently 🌱</h2>
 
-Technologies used across my projects:
+**At Personal** — working on monitoring, diagnostics, and automation in telecommunications.
 
-[![Java, Spring Boot, Go, Rust, Python, PostgreSQL, Linux, Docker, Git, Redis, MongoDB and Next.js](assets/tech-stack.svg)](https://skillicons.dev)
-
-I've also worked with **Neo4j, Cassandra, and FFmpeg**.
-
-## Community
-
-As the founder of **Imas+**, I'm building the official computer science student community at UADE alongside my technical work.
-
-## Find Me
-
-[Portfolio](https://matias-sanmiguel.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/matias-sanmiguel/) · [Email](mailto:matiassanmiguel240@gmail.com)
+**At Imas+** — building the official computer science student community at UADE as its founder.
 
 ---
 
-<img src="assets/tux.gif" width="160" height="160" alt="Tux, the Linux penguin, spinning in 3D" />
-
-<sub>At home on Linux. · [Artwork credits](assets/CREDITS.md)</sub>
+<p align="center">
+  <img src="assets/tux.gif" width="160" height="160" alt="Tux, the Linux penguin, spinning in 3D" /><br />
+  <samp>at home on Linux.</samp>
+</p>
